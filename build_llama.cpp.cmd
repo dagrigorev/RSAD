@@ -1,0 +1,5 @@
+cd llama.cpp
+
+cmake -B build -DGGML_CUDA=ON -DGGML_NATIVE=OFF -DGGML_ASM=OFF -DBUILD_SHARED_LIBS=OFF -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_EXAMPLES=OFF -DCMAKE_BUILD_TYPE=Release
+
+cmake --build build --config Release -j8

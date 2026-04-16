@@ -1,0 +1,1 @@
+Перед сборкой llama.cpp удалить директирву `ASM` из `project("ggml" C CXX ASM)` в llama.cpp/ggml/CMakeLists.txt
