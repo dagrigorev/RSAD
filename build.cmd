@@ -1,0 +1,1 @@
+cmake .. -G "Visual Studio 18 2026" -A x64 -DCCCL_DIR="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/lib/cmake/cccl"
